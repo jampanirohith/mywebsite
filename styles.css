@@ -9,16 +9,31 @@ h1, h2, h3 {
 body {
 font-family: 'SN Pro', serif;
 font-size: 15px;
-background-color: rgb(185,179,175);}
+background-color: rgb(255, 255, 255);}
 
 p{
 line-height: 1em;
 text-align: justify;
 }
 
+img{
+    float: none;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    margin: 5px;
+}
+
+ul{
+    list-style-type: square;
+    margin: 5px; 
+}
+ul.illumination{
+    list-style-type: outside;
+}
 h1 {
 font-family: 'SN Pro', serif;
 color: rgb(42, 89, 217);
+background-color: rgb(239, 239, 239);
 font-size: 50px;
 text-transform: uppercase;
 font-weight: bold;
@@ -28,7 +43,6 @@ text-decoration: none;
 text-align: left;
 text-shadow: 1px 1px 2px black;
 }
-
 
 h2{
 font-family: 'SN Pro', serif;
@@ -55,3 +69,34 @@ color: deeppink;
 text-decoration: underline;}
 a:active {
 color: darkcyan;}
+
+
+table {
+width: 600px;}
+th, td {
+padding: 7px 10px 10px 10px;}
+th {
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 90%;
+border-bottom: 2px solid #111111;
+border-top: 1px solid #999;
+text-align: left;}
+tr.even {
+background-color: #efefef;}
+tr:hover {
+background-color: #c3e6e5;}
+.money {
+text-align: right;}
+
+
+blockquote {
+float: right;
+width: 275px;
+font-size: 130%;
+font-style: italic;
+font-family: Georgia, Times, serif;
+margin: 0px 0px 10px 10px;
+padding: 10px;
+border-top: 1px solid #665544;
+border-bottom: 1px solid #665544;}
