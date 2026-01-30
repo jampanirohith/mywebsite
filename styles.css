@@ -9,14 +9,18 @@ h1, h2, h3 {
 body {
 font-family: 'SN Pro', serif;
 font-size: 15px;
-background-color: rgb(255, 255, 255);}
+background-color: rgb(255, 255, 255);
+background-image: url('./assets/images/background.jpg');
 
 p{
 line-height: 1em;
 text-align: justify;
 }
 
-img{
+img.profile-photo{
+    display: block;
+    width: 300px;
+    height: auto;
     float: none;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 3px;
@@ -86,17 +90,3 @@ tr.even {
 background-color: #efefef;}
 tr:hover {
 background-color: #c3e6e5;}
-.money {
-text-align: right;}
-
-
-blockquote {
-float: right;
-width: 275px;
-font-size: 130%;
-font-style: italic;
-font-family: Georgia, Times, serif;
-margin: 0px 0px 10px 10px;
-padding: 10px;
-border-top: 1px solid #665544;
-border-bottom: 1px solid #665544;}
