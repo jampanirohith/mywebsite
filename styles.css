@@ -1,0 +1,57 @@
+@font-face{
+    font-family: 'SN Pro';
+    src: url('./assets/fonts/SN_Pro/SNPro-VariableFont_wght.ttf');
+h1, h2, h3 {
+    font-family: 'SN Pro', serif;
+}
+}    
+ 
+body {
+font-family: 'SN Pro', serif;
+font-size: 15px;
+background-color: rgb(185,179,175);}
+
+p{
+line-height: 1em;
+text-align: justify;
+}
+
+h1 {
+font-family: 'SN Pro', serif;
+color: rgb(42, 89, 217);
+font-size: 50px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 0em;
+word-spacing: 0em;
+text-decoration: none;
+text-align: left;
+text-shadow: 1px 1px 2px black;
+}
+
+
+h2{
+font-family: 'SN Pro', serif;
+font-size: 30px;
+color: rgb(255,255,255);
+background-color: rgb(14, 133, 117);
+opacity: 0.8;
+}
+h3{
+font-family: 'SN Pro', serif;
+font-size: 20px;
+color: rgb(255, 255, 255);
+background-color: rgb(217, 42, 89);
+opacity: 0.8;
+}
+
+a:link {
+color: rgb(32, 20, 255);
+text-decoration: none;}
+a:visited {
+color: black;}
+a:hover {
+color: deeppink;
+text-decoration: underline;}
+a:active {
+color: darkcyan;}
